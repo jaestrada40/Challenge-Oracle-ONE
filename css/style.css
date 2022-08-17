@@ -1,0 +1,97 @@
+body{
+    background-color: #f3f5fc;
+    padding: 10px;
+}
+
+
+img{
+    width: 100%;
+}
+
+
+textarea{
+    font-size: 24px;
+}
+
+#logo{
+    width: 40px;
+}
+
+#ingreso{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+#areatexto{
+    padding-top: 20px;
+    padding-left: 50px;
+    height: 75%;
+}
+
+textarea#exampleFormControlTextarea1{
+    background-color: #f3f5fc !important;
+    border: 0;
+    font-size: 24px;
+    resize: none;
+    padding-top: 20px;
+    padding-left: 50px;
+    box-shadow: none;
+}
+
+textarea:focus, input:focus, input[type]:focus {
+    outline: 0 none;
+}
+
+/* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
+    font-size: 24px !important;
+}
+
+  /* Internet Explorer 10-11 */
+:-ms-input-placeholder {
+    font-size: 24px !important;
+}
+
+/* Microsoft Edge */
+::-ms-input-placeholder {
+    font-size: 24px !important;
+}
+
+.jumbotron{
+    height: 95vh;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 22px;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 16px;
+}
+
+.copiar{
+    text-align: center;
+    width: 100%;
+    border-radius: 15px;
+}
+
+#botonE{
+    background-color: #052d5d;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 15px;
+    width: 28%;
+}
+
+#botonD{
+    background-color: #b0b8bd;
+    color: #052d5d;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 15px;
+    width: 28%;
+}
