@@ -14,17 +14,25 @@
   <main>
     <section class="ingresoTexto">
       <textarea class="input-texto" cols="40" rows="6" placeholder="Ingrese el texto aquí"></textarea>
+      <div class="info">
+        <p class="informacion">Solo letras miúsculas y sin acentos</p>
+      </div>
       <div class="botones">
-        <button class="encriptar" onclick="btnEncriptar()">Encrypt</button>
+        <button class="encriptar" onclick="btnEncriptar()"><p> Encrypt</p></button>
         <button class="desencriptar" onclick="btnDesencriptar()">Decrypt</button>
       </div>
     </section>
 
     <section class="rectangle">
       <textarea class="mensaje" cols="18" rows="8"></textarea>
+      <img class="muneco" src="img/Muñeco.png" alt="">
+      <div>
+        <p class="titulo">Ningún mensaje fue encontrado</p>
+      </div>
       <button class="btn btn-copy" onclick="btnCopiar()">Copy</button>
     </section>
   </main>
   <script src="js/script.js"></script>
 </body>
 </html>
+
