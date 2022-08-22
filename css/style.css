@@ -24,26 +24,15 @@ body{
 .input-texto{
     position: absolute;
     width: 577px;
-    height: 48px;
+    height: 50%;
     left: 240px;
     top: 168px;
     border: none;
     background: #F3F5FC;
-    border:0;outline:0;
-}
-
-input-texto::placeholder{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 150%;
-/* identical to box height, or 48px */
-
-
-/* Dark blue/dark-blue-300 */
-
-color: #0A3871;
+    border:0;
+    outline:0;
+    resize: none;
+    font-size: 32px;
 }
 
 .input-texto::placeholder{
@@ -243,6 +232,7 @@ color: #0A3871;
     height: 304px;
     /*left: 1032px;*/
     top: 283px;
+    visibility: visible;
 
 }
 
@@ -260,6 +250,7 @@ width: 336px;
 height: 122px;
 left: 0px;
 top: 619px;
+visibility: visible;
 
 }
 
@@ -313,5 +304,76 @@ top: 619px;
     order: 1;
     align-self: stretch;
     flex-grow: 0;
+}
+
+
+.mensaje {
+    position: absolute;
+    width: 336px;
+    height: 781px;
+    left: 32px;
+    top: 72px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+    /* Gray/gray-400 */
+    color: #495057;
+
+    visibility: hidden;
+    border:0;
+    outline:0;
+    resize: none;
+}
+
+
+.btnCopiar{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+position: absolute;
+width: 336px;
+height: 67px;
+left: 32px;
+top: 865px;
+
+/* Dark blue/dark-blue-300 */
+
+border: 1px solid #0A3871;
+border-radius: 24px;
+visibility: hidden;
+}
+
+.btnCopiar span{
+    width: 288px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* Dark blue/dark-blue-300 */
+
+color: #0A3871;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
 }
 

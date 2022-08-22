@@ -15,7 +15,7 @@
   </header>
   <main>
     <section>
-      <input class="input-texto" cols="40" rows="6" placeholder="Ingrese el texto aquí"></input>
+      <textarea class="input-texto" cols="80" rows="20" placeholder="Ingrese el texto aquí"></textarea>
       <div class="info">
         <p class="informacion"><span>Solo letras miúsculas y sin acentos</span></p>
       </div>
@@ -28,9 +28,12 @@
     <section  class="rectangulo">
       <img class="muneco" src="img/Muñeco.png" alt="">
       <div class="frame">
-        <p class="titulo">Ningún mensaje fue econtrado</p>
+        <h3 class="titulo">Ningún mensaje fue econtrado</h3>
         <p class="subTitulo">Ingrese el texto que desees encriptar o desencriptar.</p>
       </div>
+        <textarea name="" id="" cols="40" rows="10" class="mensaje"></textarea>
+        <button class="btnCopiar" onclick="btnCopiar"><span>Copiar</span></button>
+
     </section>
   </main>
   <script src="js/script.js"></script>
