@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 <body>
@@ -12,24 +14,23 @@
     <img src="img/Vector.png" alt="">
   </header>
   <main>
-    <section class="ingresoTexto">
-      <textarea class="input-texto" cols="40" rows="6" placeholder="Ingrese el texto aquí"></textarea>
+    <section>
+      <input class="input-texto" cols="40" rows="6" placeholder="Ingrese el texto aquí"></input>
       <div class="info">
-        <p class="informacion">Solo letras miúsculas y sin acentos</p>
+        <p class="informacion"><span>Solo letras miúsculas y sin acentos</span></p>
       </div>
       <div class="botones">
-        <button class="encriptar" onclick="btnEncriptar()"><p> Encrypt</p></button>
-        <button class="desencriptar" onclick="btnDesencriptar()">Decrypt</button>
+        <button class="encriptar" onclick="btnEncriptar()"><span> Encriptar</span></button>
+        <button class="desencriptar" onclick="btnDesencriptar()"><span>Desencriptar</span></button>
       </div>
     </section>
 
-    <section class="rectangle">
-      <textarea class="mensaje" cols="18" rows="8"></textarea>
+    <section  class="rectangulo">
       <img class="muneco" src="img/Muñeco.png" alt="">
-      <div>
-        <p class="titulo">Ningún mensaje fue encontrado</p>
+      <div class="frame">
+        <p class="titulo">Ningún mensaje fue econtrado</p>
+        <p class="subTitulo">Ingrese el texto que desees encriptar o desencriptar.</p>
       </div>
-      <button class="btn btn-copy" onclick="btnCopiar()">Copy</button>
     </section>
   </main>
   <script src="js/script.js"></script>
